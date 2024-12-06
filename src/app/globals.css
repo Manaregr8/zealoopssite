@@ -35,6 +35,71 @@ a {
   text-decoration: none;
 }
 
+body{
+	padding: 0px !important;
+	margin: 0px !important;
+  background-color: white;
+  width: 100%;
+}
+h1{
+	margin: 0;
+	padding: 0;
+
+}
+h2{
+	margin: 0;
+	padding: 0;
+}
+h3{
+	margin: 0;
+	padding: 0;
+}
+h4{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+	margin: 0;
+	padding: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: #FDAF35;
+}/*
+@font-face{
+    src: url(./fonts/space-age.regular.ttf);
+    font-family: space-age;      
+}
+@font-face{
+    src: url(./fonts/Raleway-Medium.ttf);
+    font-family: Raleway-Medium;       
+}
+@font-face{
+    src: url(./fonts/Raleway-Light.ttf);
+    font-family: Raleway-Light;       
+}
+@font-face{
+    src: url(./fonts/Raleway-SemiBold.ttf);
+    font-family: Raleway-SemiBold;       
+}
+@font-face {
+	font-family: 'Space Age';
+	src: url(./fonts/space\ age.woff) format('woff');
+}
+*/
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
