@@ -14,7 +14,7 @@ const Footer = () => {
             <span style={{ color: "#FDAF35" }}>Back To Basic!</span>
           </p>
           <p className={styles.p}>
-            We view art as more than just a product; it's an emotion. Through our frames, we aim to convey an experience
+            We view art as more than just a product; it'&apos;s an emotion. Through our frames, we aim to convey an experience
             of artistry, where each piece becomes a vessel for creativity and expression.
           </p>
           <div className={styles.iconLinks}>
