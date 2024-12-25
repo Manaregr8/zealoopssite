@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const Footer = () => {
+    const data = `We view art as more than just a product; it'&apos;s an emotion. Through our frames, we aim to convey an experience
+            of artistry, where each piece becomes a vessel for creativity and expression.`;
   return (
     <footer className={styles.footer}>
       <div className={styles.gap}></div>
@@ -14,8 +16,7 @@ const Footer = () => {
             <span style={{ color: "#FDAF35" }}>Back To Basic!</span>
           </p>
           <p className={styles.p}>
-            We view art as more than just a product; it'&apos;s an emotion. Through our frames, we aim to convey an experience
-            of artistry, where each piece becomes a vessel for creativity and expression.
+            {data}
           </p>
           <div className={styles.iconLinks}>
             <a  href="https://www.facebook.com/zealoops?mibextid=JRoKGi">
