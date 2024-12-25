@@ -9,13 +9,13 @@ const Footer = () => {
       <div className={styles.gap}></div>
       <div className={styles.graphicContent}>
         <div className={styles.logoData}>
-          <h3 className={styles.h3}>
+          <h3 className={styles.h3} style={{marginTop: "15px"}}>
             Zeal<span style={{ color: "white" }}>oo</span>ps
           </h3>
           <p className={styles.p}>
             <span style={{ color: "#FDAF35" }}>Back To Basic!</span>
           </p>
-          <p className={styles.p}>
+          <p className={styles.p} style={{margin: "15px 0 15px 0"}}>
             {data}
           </p>
           <div className={styles.iconLinks}>

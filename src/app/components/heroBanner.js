@@ -15,7 +15,7 @@ const Hero = () => {
           <p>Delivering you</p>
           <h2>AMAZING || CREATIVE || COMFORTABLE</h2>
           <Link href="/product">
-            <button className={styles.button}>Product</button>
+            <button className={styles.button}>To Bikes</button>
           </Link>
         </div>
         <div className={styles.cycleBanner}>
