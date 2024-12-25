@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./hero.module.css"; // Import as a CSS Module
-
+import Swipper from "./swipper";
 const Hero = () => {
   return (
-    <section className={`${styles.hero} ${styles.section}`} style={{backgroundImage: "url(/images/banner.jpg)"}}>
+    <section className={`${styles.hero} ${styles.section}`} style={{ backgroundImage: "url(/images/banner.jpg)" }}>
       {/* Use CSS for background image */}
       <div className={styles.grid}>
         <div className={styles.textBanner}>
@@ -18,15 +18,7 @@ const Hero = () => {
             <button className={styles.button}>To Bikes</button>
           </Link>
         </div>
-        <div className={styles.cycleBanner}>
-          {/* Use next/image for optimized images */}
-          <img className={styles.img} id={styles.animated2} src="/images/g3.png" alt="cycle" />
-<img className={styles.img} id={styles.animated} src="/images/g8.png" alt="cycle"  />
-<img className={styles.img} id={styles.animated2} src="/images/g2.png" alt="cycle" />
-<img className={styles.img} id={styles.animated} src="/images/g8.png" alt="cycle" />
-<img className={styles.img} id={styles.animated2} src="/images/g3.png" alt="cycle" />
-
-        </div>
+        <Swipper/>
       </div>
     </section>
   );

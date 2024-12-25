@@ -71,65 +71,33 @@
     background-color: rgb(225, 225, 225);
     color:#1E1D25;
 }
-.img{
+.cycleBanner {
+    position: relative;
     width: 100%;
-    max-width: 700px;
-    padding: 40px;
-    object-fit: contain;
-    margin-top: auto;
+    max-width: 800px;
     margin-left: auto;
-}
-.cycleBanner{
-    display:flex;
-    width: 100%;
     height: 100%;
     overflow: hidden;
-    max-width: 700px;
-    margin-left: auto;
-    margin-top: auto;
-}
-#animated2{
-    transform: translateX(0);
-    animation: 20s swipe;
-    animation-iteration-count: infinite;
-}
-#animated{
-    transform: translateX(0);
-    animation: 20s swipe ;
-    animation-iteration-count: infinite;
-}
-@keyframes swipe{
-    0%{
-        transform: translateX(-400%);
-    }
-    16%{
-        transform: translateX(-400%);
-    }
-    21%{
-        transform: translateX(-300%);
-    }
-    37%{
-        transform: translateX(-300%);
-    }
-    42%{
-        transform: translateX(-200%);
-    }
-    58%{
-        transform: translateX(-200%);
-    }
-    63%{
-        transform: translateX(-100%);
-    }
-    79%{
-        transform: translateX(-100%);
-    }
-    84%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(0%);
-    }
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade-in/out */
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .img.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
 @media (max-width:1197px){
     .textBanner h3{
     font-size: 35px;
