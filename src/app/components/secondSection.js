@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './secondSection.module.css'; // Import styles properly
 
 const SecondSection = () => {
+  const data1 = `The weather and nature is calling for you to come out. Let's go out for some fresh air. And what better way
+            to do that than on a bicycle? A bicycle in your favourite colour that makes you happy as Spring.`;
+  const data2 = `The new stylish Zealoops e-cycle are available in 5 vibrant shade options:`;
   return (
     <section className={styles.section}>
       <div className={styles.grid}>
@@ -18,10 +21,9 @@ const SecondSection = () => {
             Its Available in <span style={{ color: '#FDAF35' }}>5 premium colors</span>
           </h3>
           <p className={`${styles.pData} ${styles.p}`}>
-            The weather and nature is calling for you to come out. Let's go out for some fresh air. And what better way
-            to do that than on a bicycle? A bicycle in your favourite colour that makes you happy as Spring.
+            {data1}
             <br />
-            The new stylish Zealoops e-cycle are available in 5 vibrant shade options:
+            {data2}
           </p>
           <div className={styles.colorSegment}>
             <div className={styles.color1}>
