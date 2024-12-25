@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-
+import Link from "next/link";
 const Footer = () => {
     const data = `We view art as more than just a product; it'&apos;s an emotion. Through our frames, we aim to convey an experience
             of artistry, where each piece becomes a vessel for creativity and expression.`;
@@ -19,41 +19,41 @@ const Footer = () => {
             {data}
           </p>
           <div className={styles.iconLinks}>
-            <a  href="https://www.facebook.com/zealoops?mibextid=JRoKGi">
+            <Link  href="https://www.facebook.com/zealoops?mibextid=JRoKGi">
               <img className={styles.icon} src="/icons/face.png" alt="facebook-logo" />
-            </a>
-            <a href="https://x.com/Zealoops_01?t=LWriSZwMf82N_Ln0mL4NXw&s=08">
+            </Link>
+            <Link href="https://x.com/Zealoops_01?t=LWriSZwMf82N_Ln0mL4NXw&s=08">
               <img className={styles.icon} src="/icons/twit.png" alt="twitter-logo" />
-            </a>
-            <a  href="https://www.linkedin.com/company/zealoops/">
+            </Link>
+            <Link href="https://www.linkedin.com/company/zealoops/">
               <img className={styles.icon} src="/icons/linkedin.png" alt="linkedin-logo" />
-            </a>
-            <a href="https://www.instagram.com/zealoops/">
+            </Link>
+            <Link href="https://www.instagram.com/zealoops/">
               <img className={styles.icon} src="/icons/instagram.png" alt="instagram-logo" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.data}>
           <div className={styles.subData}>
             <h4 className={styles.h4}>Quick Links</h4>
-            <a className={styles.a} href="/">Home</a>
-            <a className={styles.a} href="/about">About</a>
-            <a className={styles.a} href="/contact">Contact</a>
+            <Link className={styles.a} href="/">Home</Link>
+            <Link className={styles.a} href="/about">About</Link>
+            <Link className={styles.a} href="/contact">Contact</Link>
           </div>
           <div className={styles.subData}>
             <h4 className={styles.h4}>Support</h4>
-            <a className={styles.a} href="/warranty">Warranty Policy</a>
-            <a className={styles.a} href="/terms">Terms & Condition</a>
-            <a className={styles.a} href="/privacy">Privacy Policy</a>
-            <a className={styles.a} href="/return">Return Policy</a>
+            <Link className={styles.a} href="/warranty">Warranty Policy</Link>
+            <Link className={styles.a} href="/terms">Terms & Condition</Link>
+            <Link className={styles.a} href="/privacy">Privacy Policy</Link>
+            <Link className={styles.a} href="/return">Return Policy</Link>
           </div>
           <div className={styles.subData}>
             <h4 className={styles.h4}>Also visit us at</h4>
-            <a className={styles.a} href="https://www.amazon.in/Zealoops-Electric-Non-Removable-Battery-Suspension/dp/B0CR44VCMB">
+            <Link className={styles.a} href="https://www.amazon.in/Zealoops-Electric-Non-Removable-Battery-Suspension/dp/B0CR44VCMB">
               Amazon
-            </a>
-            <a className={styles.a} href="https://www.facebook.com/zealoops?mibextid=JRoKGi">Facebook</a>
-            <a className={styles.a} href="/">Zealoops</a>
+            </Link>
+            <Link className={styles.a} href="https://www.facebook.com/zealoops?mibextid=JRoKGi">Facebook</Link>
+            <Link className={styles.a} href="/">Zealoops</Link>
           </div>
         </div>
       </div>
