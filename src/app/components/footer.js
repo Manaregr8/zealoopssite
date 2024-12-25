@@ -8,10 +8,10 @@ const Footer = () => {
       <div className={styles.graphicContent}>
         <div className={styles.logoData}>
           <h3 className={styles.h3}>
-            Zeal<span style={{ color: 'white' }}>oo</span>ps
+            Zeal<span style={{ color: "white" }}>oo</span>ps
           </h3>
           <p className={styles.p}>
-            <span style={{ color: '#FDAF35' }}>Back To Basic!</span>
+            <span style={{ color: "#FDAF35" }}>Back To Basic!</span>
           </p>
           <p className={styles.p}>
             We view art as more than just a product; it's an emotion. Through our frames, we aim to convey an experience
