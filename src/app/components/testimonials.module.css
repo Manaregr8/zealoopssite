@@ -1,0 +1,147 @@
+.section {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: #1e1d25;
+    padding: 20px 10px 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+    font-size: 50px;
+    font-family: Raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 20px 0 30px 0;
+}
+
+.book {
+    background-color: #FDAF35;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.a {
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.h2 {
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 60px 0 0 0;
+}
+
+.review {
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.img {
+    padding: 25px 0;
+}
+
+.p {
+    font-family: Raleway;
+    font-weight: 100;
+}
+
+.testimonials {
+    margin: 0px 0px 40px 0;
+}
+
+.testimonials .a {
+    color: #FDAF35;
+}
+
+@media (max-width:1127px) {
+    .h2 {
+        font-size: 25px;
+    }
+
+    .review {
+        font-size: 25px;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:780px) {
+    .p {
+        font-size: 14px;
+    }
+
+    .h1 {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (max-width:703px) {
+    .p {
+        font-size: 13px;
+    }
+
+    .h2 {
+        padding-top: 30px;
+    }
+
+    .img {
+        padding: 10px 0;
+    }
+
+    .review {
+        font-size: 18px;
+    }
+
+    .book {
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width:545px) {
+    .h2 {
+        font-size: 21px;
+    }
+
+    .h1 {
+        font-size: 24px;
+    }
+
+    .review {
+        width: 100%;
+    }
+}
+
+@media (max-width:437px) {
+    .p {
+        font-size: 10px;
+    }
+
+    .review {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}

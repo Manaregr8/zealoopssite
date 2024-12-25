@@ -78,28 +78,28 @@ a{
 }
 a:hover{
 	color: #FDAF35;
-}/*
+}
 @font-face{
-    src: url(./fonts/space-age.regular.ttf);
+    src: url(/fonts/xspace.ttf);
     font-family: space-age;      
 }
 @font-face{
-    src: url(./fonts/Raleway-Medium.ttf);
+    src: url(/fonts/Raleway-Medium.ttf);
     font-family: Raleway-Medium;       
 }
 @font-face{
-    src: url(./fonts/Raleway-Light.ttf);
-    font-family: Raleway-Light;       
+    src: url(/fonts/Raleway-Light.ttf);
+    font-family: Raleway;       
 }
 @font-face{
-    src: url(./fonts/Raleway-SemiBold.ttf);
+    src: url(/fonts/Raleway-SemiBold.ttf);
     font-family: Raleway-SemiBold;       
 }
 @font-face {
 	font-family: 'Space Age';
-	src: url(./fonts/space\ age.woff) format('woff');
+	src: url(/fonts/space\ age.woff) format('woff');
 }
-*/
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from 'react';
-import "./navbar.css";
+import React, { useState } from "react";
+import styles from "./navbar.module.css"; // Import the CSS Module
 
 const Navbar = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -11,31 +11,56 @@ const Navbar = () => {
 
   return (
     <>
-      <nav>
-        <div className="container-nav">
-          <img id="logo" src="./images/logo.png" alt="logo" width={200} height={60} />
+      <nav className={styles.nav}>
+        <div className={styles.containerNav}>
           <img
-            id="menu"
-            src="./icons/menu.png"
+            className={styles.logo}
+            src="./images/logo.png"
+            alt="logo"
+          />
+          <img
+            className={styles.menu}
+            src="/icons/menu.png"
             alt="menu"
             onClick={toggleMenu}
-            width={25}
-            height={25}
           />
-          <div className={`data-menu ${menuVisible ? 'show' : ''}`}>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/product">Product</a>
-            <a href="/warranty">Warranty</a>
-            <a href="/contact">Contact</a>
+          <div
+            className={`${styles.dataMenu} ${menuVisible ? styles.show : ""}`}
+          >
+            <a className={styles.a} href="/">
+              Home
+            </a>
+            <a className={styles.a} href="/about">
+              About
+            </a>
+            <a className={styles.a} href="/product">
+              Product
+            </a>
+            <a className={styles.a} href="/warranty">
+              Warranty
+            </a>
+            <a className={styles.a} href="/contact">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
       <a
-        className="absolute"
+        className={`${styles.absolute} ${styles.a}`}
         href="https://api.whatsapp.com/send?phone=+919105300803&text=%C2%A0"
       >
-        <img src="./whatsaap-logo.gif" alt="whatsapp-icon" width={60} height={60} />
+        <img
+        className={styles.whatsaap}
+          src="./whatsaap-logo.gif"
+          alt="whatsapp-icon"
+          style={{
+            width:"50px",
+            position:"fixed",
+            bottom:"10px",
+            left:"10px",
+            zIndex:"100000"
+          }}
+        />
       </a>
     </>
   );

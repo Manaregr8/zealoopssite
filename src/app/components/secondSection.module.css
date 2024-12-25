@@ -14,7 +14,7 @@
     grid-template-columns: 0.8fr 1fr;
     grid-gap: 20px;
     }
-    iframe{
+    .iframe{
         width: 100%;
         height: 350px;
         padding: 10px;
@@ -30,7 +30,7 @@
         margin-bottom: 10px ;
         font-family: "Raleway";
     }
-    .p-data{
+    .pData{
         color: #484849;
         font-family: Raleway;
         margin-bottom: 10px;
@@ -56,7 +56,7 @@
         background-color: #134a37ff;
         color: white;
     }
-    .color-segment{
+    .colorSegment{
         margin: 20px 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -65,7 +65,7 @@
         height: 50%;
         font-weight: 700;
     }
-    .color-segment div{
+    .colorSegment div{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -75,25 +75,25 @@
         height: 200px;
         box-shadow:6px 6px 8px grey;
     }
-    .color-segment p{
+    .colorSegment .p{
         transform: rotate(270deg);
         text-transform: uppercase;
     }
-    p{
+    .p{
         text-align: justify;
         margin-bottom: 10px;
     }
     @media (max-width:1127px){
-        h3{
+        .h3{
             font-size: 25px;
         }
-        .p-data{
+        .pData{
             font-size: 16px;
         }
         .grid{
     grid-template-columns: 0.8fr 1fr;
     }
-    iframe{
+    .iframe{
         height: 250px;
     }
     }
@@ -103,10 +103,10 @@
             grid-gap: 10px;
         }
 
-        .p-data{
+        .pData{
             font-size: 14px;
         }
-        section{
+        .section{
             margin: 15px auto;
         }
 
@@ -116,76 +116,76 @@
             grid-template-columns: 0.8fr 1fr;
             grid-gap: 5px;
         }
-        iframe{
+        .iframe{
             width: 100%;
         }
-        section{
+        .section{
             margin: 15px 0;
             width: 100%;
 
         }
     }
     @media (max-width:703px){
-        section{
+        .section{
             margin: 0 auto;
         }
         .grid{
             grid-template-columns:1fr    ;
         }
-        iframe{
+        .iframe{
             padding: 0;
             height: 100%;
             aspect-ratio: 16/8;
         }
-        .p-data{
+        .pData{
             font-size: 13px;
         }
-        .color-segment{
+        .colorSegment{
         margin: 10px 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
-    div p{
+    div .p{
         font-size: 13px;
     }
     }
     @media (max-width:545px){
-        section{
+        .section{
             margin: 0 auto;
         }
         .grid{
             grid-template-columns:1fr    ;
         }
-        iframe{
+        .iframe{
             padding: 0;
             height: 100%;
             aspect-ratio: 16/8;
         }
-        h3{
+        .h3{
             font-size: 21px;
         }
 
     }
     @media (max-width:437px){
 
-        .p-data{
+        .pData{
             font-size: 10px;
             padding-bottom: 10px;
         }
-        .color-segment{
+        .colorSegment{
         margin: 10px 0;
     }
-    .color-segment div{
+    .colorSegment div{
         height: 150px;
     }
-    div p{
+    div .p{
         font-size: 10px;
     }
     }
     @media (max-width:290px){
 
-section{
+.section{
     width: 280px;
     overflow: hidden;
     margin: auto;
