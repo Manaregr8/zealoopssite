@@ -1,0 +1,127 @@
+.section {
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto 0 auto;
+    padding: 30px 0;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+
+.p {
+    padding: 16px;
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    text-align: justify;
+    font-family: Raleway;
+    font-weight: 100;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    font-family: Raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #FDAF35;
+}
+
+.ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.li {
+    color: rgb(124, 124, 124);
+    font-family: Raleway;
+    font-weight: 100;
+    padding: 10px 10px 10px 20px;
+}
+
+.h5 {
+    padding: 20px 16px 10px 16px;
+    font-size: 18px;
+    font-family: Raleway;
+}
+
+.h2 {
+    padding: 20px 16px 10px 16px;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.table {
+    width: 100%;
+    padding: 16px;
+    align-items: center;
+}
+
+.td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 900;
+}
+
+.th {
+    background-color: #343A40;
+    color: white;
+    padding: 10px;
+    font-family: Raleway;
+    font-weight: 900;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #FDAF35;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.link {
+    color: #FDAF35;
+    text-decoration: none;
+}
+
+@media (max-width: 720px) {
+    .h1 {
+        font-size: 30px;
+    }
+
+    .h2 {
+        font-size: 15px;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    .h5 {
+        font-size: 18px;
+    }
+
+    .li {
+        font-size: 12px;
+        padding: 10px 10px 0 20px;
+    }
+
+    .th, .td {
+        font-size: 13px;
+    }
+}
