@@ -27,25 +27,25 @@ const Navbar = () => {
           <div
             className={`${styles.dataMenu} ${menuVisible ? styles.show : ""}`}
           >
-            <a className={styles.a} href="/">
+            <Link className={styles.a} href="/">
               Home
-            </a>
-            <a className={styles.a} href="/about">
+            </Link>
+            <Link className={styles.a} href="/about">
               About
-            </a>
-            <a className={styles.a} href="/product">
+            </Link>
+            <Link className={styles.a} href="/product">
               Product
-            </a>
-            <a className={styles.a} href="/warranty">
+            </Link>
+            <Link className={styles.a} href="/warranty">
               Warranty
-            </a>
-            <a className={styles.a} href="/contact">
+            </Link>
+            <Link className={styles.a} href="/contact">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
-      <a
+      <Link
         className={`${styles.absolute} ${styles.a}`}
         href="https://api.whatsapp.com/send?phone=+919105300803&text=%C2%A0"
       >
@@ -61,7 +61,7 @@ const Navbar = () => {
             zIndex:"100000"
           }}
         />
-      </a>
+      </Link>
     </>
   );
 };
