@@ -74,13 +74,14 @@
 .cycleBanner {
     position: relative;
     width: 100%;
+    height: 100%;
     max-width: 800px;
     margin-left: auto;
     height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
   }
   
   .img {
@@ -88,6 +89,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: bottom;
     transition: opacity 0.5s ease-in-out; /* Smooth fade-in/out */
     opacity: 0;
     visibility: hidden;
