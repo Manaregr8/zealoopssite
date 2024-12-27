@@ -1,0 +1,281 @@
+.container{
+  width:100%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+   .section{
+        width: 100%;
+        max-width: 1300px;
+        box-sizing: border-box;
+        margin: 10px auto 10px auto;
+        color: white;
+        box-sizing: border-box;
+    }
+    .display{
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      z-index: 1000000;
+      background-color: rgba(0, 0, 0, 0.314);
+      top: 0;
+      left: 0;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    .card{
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+
+    }
+    .card a{
+      display: flex;
+      padding: 10px 15px;
+      align-items: center;
+      width: 100%;
+      
+    }
+   .a p{
+      font-size: 16px;
+    }
+    .card img{
+     width: 100%;
+     max-width: 40px;
+      padding-right: 10px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+        border: 1px solid #75758A;
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px 16px;
+        padding: 20px 40px 20px 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   .h4{
+      font-size: 40px;
+      font-family: 'Space Age', sans-serif;
+      font-weight: 200;
+      padding: 10px 0;
+    }
+   .p{
+      font-family: Raleway;
+      font-weight: 100;
+    }
+   .h2{
+      font-family: Raleway;
+      font-weight: 900;
+      font-size: 30px;
+    }
+    .modes{
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+   .button{
+      padding: 10px 1px;
+      border: none;
+      background-color: #FDAF35;
+      border-radius: 2px;
+      border: none;
+      color:white;
+      font-weight: 700;
+      text-transform: uppercase;
+      max-width: 150px;
+      margin: 10px 0;
+      cursor: pointer;
+      font-size: 18.5px;
+      text-decoration: none;
+    }
+   .section img{
+      width: 100%;
+      margin-top: auto;
+      max-width: 500px;
+    }
+  .a  img{
+      width: 50px;
+      margin:10px 20px 10px 0;
+    }
+    .buttonsection{
+display: flex;
+flex-direction: row;
+    }
+    .btn{
+      background-color: transparent;
+      border:none;
+      padding: 8px 15px;
+      border-left: 1px solid #FDAF35;
+      color: white;
+      font-size: 15px;
+      font-weight: 200;
+
+    }   
+   .h1{
+			font-size: 30px;
+			padding:  10px 0 0 16px;
+			   font-family: Raleway;
+         font-weight: 900;
+			   font-size: 30px;
+			   text-transform: uppercase;
+			   text-align: center;
+
+		}
+    @media (max-width:934px){
+      .grid{
+        padding: 20px;
+        grid-template-columns: 0.7fr 1fr;
+        grid-gap: 0;
+      }
+    }
+    @media (max-width:832px){
+     .h4{
+      font-size: 30px;
+    }
+   .h2{
+      font-size: 25px;
+    }
+   .p{
+  font-size: 14px;
+}
+   .a{
+      font-size: 16px;
+    }
+   .section img{
+      width: 100%;
+    }
+   .a img{
+      width: 13px;
+    }
+    .grid{
+      padding: 10px;
+    }
+    }
+    @media (max-width:681px){
+     .h4{
+      font-size: 25px;
+    }
+   .h2{
+      font-size: 20px;
+    }
+   .p{
+  font-size: 14px;
+}
+   .a{
+      font-size: 15px;
+    }
+   .section img{
+      width: 100%;
+    }
+    .modes button{
+      font-size: 15px;
+    }
+   .a img{
+      width: 12px;
+    }
+    .grid{
+      padding: 10px;
+    }
+    }
+	    @media (max-width:634px){
+   .h1{
+        font-size: 22px;
+    }
+
+    }
+    @media (max-width:616px){
+     .h4{
+      font-size: 19px;
+      padding: 10px 0 5px 0;
+    }
+   .h2{
+      font-size: 18px;
+    }
+   .p{
+  font-size: 12px;
+}
+   .a{
+      font-size: 12px;
+    }
+   .section img{
+      width: 100%;
+    }
+    .modes button{
+      font-size: 12px;
+    }
+   .a img{
+      width: 11px;
+    }
+    .modes{
+      padding:5px 0;
+    }
+   .button{
+      margin: 5px 0 10px 0;
+    }
+    }
+    @media (max-width:524px){
+      .modes{
+        display: none;
+      }
+    }
+    @media (max-width:421px){
+     .h4{
+      font-size: 14px;
+      padding: 10px 0 5px 0;
+    }
+   .h2{
+      font-size: 14px;
+    }
+   .p{
+  font-size: 10px;
+}
+   .a{
+      font-size: 12px;
+      width: 70px;
+    }
+   .section img{
+      width: 100%;
+    }
+    .modes button{
+      font-size: 12px;
+    }
+   .a img{
+      width: 11px;
+    }
+    .modes{
+      padding:5px 0;
+    }
+   .a{
+      margin: 5px 0 10px 0;
+    }
+    }
+    @media (max-width:394px){
+      .grid{
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width:370px){
+       .h1{
+            font-size: 22px;
+        }
+    }

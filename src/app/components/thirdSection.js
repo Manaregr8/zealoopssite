@@ -11,7 +11,7 @@ const FrameSection = () => {
           <h3 className={styles.h3}>
             <span style={{ color: "#FDAF35" }}>Hand crafted</span> frames
           </h3>
-          <p className={styles.p}>
+          <p className={styles.p} styles={{textAlign:"justify"}}>
             {data3}
           </p>
         </div>

@@ -1,0 +1,124 @@
+.dealerPage {
+    padding: 80px 16px 30px 16px; /* Dark background */
+    color: #fff; /* Text color for dark theme */
+    margin: auto;
+    max-width: 1300px;
+    font-family: "Raleway", sans-serif;
+  }
+  .phoneLink {
+    color: #f3e3bc;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+
+  
+  .heading {
+    text-transform: uppercase;
+    font-family: space-age;
+    transform: translateY(20px);
+    text-align: center;
+    font-size: 35px;
+    color: #f3ba2f; /* Accent color */
+  }
+  
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-top: 1px solid;
+    padding-top: 20px;
+    border-image: linear-gradient(90deg,transparent,#e3e8ed,transparent) 1;
+    gap: 20px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .storeImg{
+    width:50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .card {
+    background-color: #1e1d25; /* Darker card background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f3ba2f;
+  }
+  
+  .address,
+  .contact,
+  .mobile,
+  .gst {
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  @media(max-width:1080px){
+    .dealerPage {
+      padding: 60px 16px 30px 16px; /* Dark background */
+    }
+    
+    .heading {
+
+      transform: translateY(0px);
+    }
+  }
+  @media (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .cardTitle {
+      font-size: 20px;
+    }
+  
+    .address,
+    .contact,
+    .mobile,
+    .gst {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 24px;
+    }
+  
+    .card {
+      padding: 10px;
+    }
+  
+    .cardTitle {
+      font-size: 18px;
+    }
+  
+    .address,
+    .contact,
+    .mobile,
+    .gst {
+      font-size: 12px;
+    }
+  }
+  

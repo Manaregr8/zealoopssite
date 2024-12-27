@@ -33,11 +33,11 @@ const Navbar = () => {
             <Link className={styles.a} href="/about">
               About
             </Link>
-            <Link className={styles.a} href="/product">
+            <Link className={styles.a} href="/products">
               Product
             </Link>
-            <Link className={styles.a} href="/warranty-policy">
-              Warranty
+            <Link className={styles.a} href="/dealers">
+              Dealers
             </Link>
             <Link className={styles.a} href="/contact">
               Contact
