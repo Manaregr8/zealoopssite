@@ -10,7 +10,7 @@ const WarrantyPolicy = () => {
             <p className={styles.p}>
                 {`
                 Please make sure you register your product on www.zealoops.com (the "Website") in order to activate your warranty. Simply sign in to the website and proceed with the Register My Bike instructions. In order to register your product, you must upload a copy of your invoice as evidence of purchase. A confirmation email or message will be sent to you when your transaction has been examined and approved. Please be aware that your warranty won't be activated unless your product is registered on our website. To register your product and activate the warranty, you have 30 days from the date of purchase.
-                This Lifetime warranty policy ("Warranty") issued by Zealoops Private Limited, (hereinafter referred to as "Company"), relates to its bicycle products and spare parts thereof (hereinafter referred to as "Product(s)") which have been sold by the Company to its end users/buyers (hereinafter referred to as "Customers") in accordance with general terms of purchase any other agreements/policies agreed upon by the Customers.
+                `}</p><p className={styles.p}>{`This warranty policy ("Warranty") issued by Zealoops Private Limited, (hereinafter referred to as "Company"), relates to its bicycle products and spare parts thereof (hereinafter referred to as "Product(s)") which have been sold by the Company to its end users/buyers (hereinafter referred to as "Customers") in accordance with general terms of purchase any other agreements/policies agreed upon by the Customers.
                 `}
             </p>
 

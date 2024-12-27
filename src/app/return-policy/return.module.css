@@ -1,0 +1,55 @@
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto 0 auto;
+    padding: 30px 0;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .text {
+    padding: 16px;
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    text-align: justify;
+    font-family: Raleway;
+    font-weight: 100;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    font-family: Raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    padding: 20px 16px 10px 16px;
+    font-size: 18px;
+    font-family: Raleway;
+    color: #fdaf35;
+    text-transform: uppercase;
+    font-weight: 1000;
+  }
+  
+  .policy {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 720px) {
+    .heading {
+      font-size: 30px;
+    }
+  
+    .text {
+      font-size: 12px;
+    }
+  
+    .subheading {
+      font-size: 18px;
+    }
+  }
+  

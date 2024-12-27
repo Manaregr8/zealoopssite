@@ -13,7 +13,7 @@ const Footer = () => {
             Zeal<span style={{ color: "white" }}>oo</span>ps
           </h3>
           <p className={styles.p}>
-            <span style={{ color: "#FDAF35" }}>Back To Basic!</span>
+            <span style={{ color: "#FDAF35" }}>Back To Basics!</span>
           </p>
           <p className={styles.p} style={{margin: "15px 0 15px 0"}}>
             {data}
@@ -43,9 +43,9 @@ const Footer = () => {
           <div className={styles.subData}>
             <h4 className={styles.h4}>Support</h4>
             <Link className={styles.a} href="/warranty">Warranty Policy</Link>
-            <Link className={styles.a} href="/terms">Terms & Condition</Link>
-            <Link className={styles.a} href="/privacy">Privacy Policy</Link>
-            <Link className={styles.a} href="/return">Return Policy</Link>
+            <Link className={styles.a} href="/terms-conditions">Terms & Condition</Link>
+            <Link className={styles.a} href="/privacy-policy">Privacy Policy</Link>
+            <Link className={styles.a} href="/return-policy">Return Policy</Link>
           </div>
           <div className={styles.subData}>
             <h4 className={styles.h4}>Also visit us at</h4>

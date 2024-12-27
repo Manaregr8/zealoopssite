@@ -36,7 +36,7 @@ const SecondSection = () => {
               <p className={styles.p}>Teal Harbor</p>
             </div>
             <div className={styles.color4}>
-              <p className={styles.p}>Caramel Rose</p>
+              <p className={styles.p}>Crimson Cloud</p>
             </div>
             <div className={styles.color5}>
               <p className={styles.p}>Midnight Moss</p>
