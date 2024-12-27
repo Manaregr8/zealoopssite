@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
       <ul className={styles.list}>
         <li className='.li'>Facilitating our Service</li>
         <li className='.li'>Providing the Service on our behalf</li>
-        <li className='.li'>Performing Service-related services</li>
+        <li className='.li'>{`Performing Service-related services`}</li>
         <li className='.li'>Assisting us in analyzing how our Service is utilized</li>
       </ul>
 
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
         {`Within our Service, you may encounter links directing you to other websites. Clicking on a third-party link will redirect you to that particular site. It's important to note that these external sites are independently operated and not under our control. Consequently, we strongly recommend that you review the Privacy Policy of these websites. We bear no control over, and accept no liability for, the content, privacy policies, or practices of any third-party sites or services.`}
       </p>
 
-      <h5 className={styles.heading}>Children's Privacy</h5>
+      <h5 className={styles.heading}>{`Children's Privacy`}</h5>
       <p className={styles.text}>
         {`Our Services are not intended for individuals under the age of 13. We do not knowingly gather personally identifiable information from children under 13 years old. If we become aware that a child under 13 has provided us with personal information, we promptly remove it from our servers. If you are a parent or guardian and are aware that your child has provided us with personal information, please contact us so that we can take appropriate action.`}
       </p>

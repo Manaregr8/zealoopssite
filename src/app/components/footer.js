@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className={styles.subData}>
             <h4 className={styles.h4}>Support</h4>
-            <Link className={styles.a} href="/warranty">Warranty Policy</Link>
+            <Link className={styles.a} href="/warranty-policy">Warranty Policy</Link>
             <Link className={styles.a} href="/terms-conditions">Terms & Condition</Link>
             <Link className={styles.a} href="/privacy-policy">Privacy Policy</Link>
             <Link className={styles.a} href="/return-policy">Return Policy</Link>

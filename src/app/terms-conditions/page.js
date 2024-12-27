@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './terms.module.css';
-import { lazyLoad } from '../components/lazyLoad';
 
 const Terms = () => {
     return (

@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link className={styles.a} href="/product">
               Product
             </Link>
-            <Link className={styles.a} href="/warranty">
+            <Link className={styles.a} href="/warranty-policy">
               Warranty
             </Link>
             <Link className={styles.a} href="/contact">
