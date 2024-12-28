@@ -97,6 +97,7 @@
     .address,
     .contact,
     .mobile,
+    .email,
     .gst {
       font-size: 14px;
     }
@@ -118,6 +119,7 @@
     .address,
     .contact,
     .mobile,
+    .email,
     .gst {
       font-size: 12px;
     }
