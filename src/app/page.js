@@ -6,6 +6,7 @@ import ThirdSection from "@/app/components/thirdSection";
 import AccessoriesParts from "./components/accessories";
 import ZealoopsComponent from "./components/specs";
 import Testimonials from "./components/testimonials";
+import CarbonFiberSection from "./components/carbon";
 export default function Home() {
   return (
       <main>
@@ -13,6 +14,7 @@ export default function Home() {
         <SecondSection/>
         <ThirdSection/>
         <AccessoriesParts/>
+        <CarbonFiberSection/>
         <ZealoopsComponent/>
         <Testimonials/>
       </main>

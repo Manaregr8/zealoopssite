@@ -7,10 +7,12 @@ const DealerPage = () => {
   const dealers = [
     {
       name: "HVI Cycles",
-      address: "No. 14, Shree illam, VOC street, Kandanchavadi, Chennai-600096, Tamil Nadu, India",
+      address: `No. 16, MGR Main Road
+Kandanchavadi, Perungudi, Chennai, TAMIL NADU, 600096`,
       contactName: "Mr. Praveen & Mr. Prashanth",
       mobile: ["+91-7358477622", "+91-8754469475"],
       gst: "33AARFH4847B1ZE",
+      email : "hvicycles@gmail.com"
     },
     // Add more dealer objects here if needed
   ];
@@ -46,6 +48,10 @@ const DealerPage = () => {
             </p>
             <p className={styles.gst}>
               <strong style={{ color: "#f3ba2f" }}>GST:</strong> {dealer.gst}
+            </p>
+            <p className={styles.email}>
+              <strong style={{ color: "#f3ba2f" }}>Email:</strong>{" "}
+              <a href={`tel:${dealer.email}`} className={styles.phoneLink} >{dealer.email}</a> 
             </p>
           </div>
         ))}
