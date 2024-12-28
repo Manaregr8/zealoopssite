@@ -14,8 +14,8 @@ const Hero = () => {
           </h3>
           <p>Delivering you</p>
           <h2>AMAZING || CREATIVE || COMFORTABLE</h2>
-          <Link href="/product">
-            <button className={styles.button}>To Bikes</button>
+          <Link href="/products">
+          <button className={styles.button}>EBIKES</button>
           </Link>
         </div>
         <Swipper/>

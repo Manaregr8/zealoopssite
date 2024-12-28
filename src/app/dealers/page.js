@@ -9,8 +9,8 @@ const DealerPage = () => {
       name: "HVI Cycles",
       address: `No. 16, MGR Main Road
 Kandanchavadi, Perungudi, Chennai, TAMIL NADU, 600096`,
-      contactName: "Mr. Praveen & Mr. Prashanth",
-      mobile: ["+91-7358477622", "+91-8754469475"],
+      contactName: "Mr. Prasanth",
+      mobile: ["+91-7200121545"],
       gst: "33AARFH4847B1ZE",
       email : "hvicycles@gmail.com"
     },

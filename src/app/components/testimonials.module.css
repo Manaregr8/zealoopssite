@@ -26,7 +26,9 @@
     padding: 8px 16px;
     border-radius: 5px;
 }
-
+.book:hover{
+    color:black
+}
 .a {
     text-decoration: none;
     margin: 20px 0;
@@ -69,7 +71,9 @@
 .testimonials .a {
     color: #FDAF35;
 }
-
+.book:hover{
+    color:black
+}
 @media (max-width:1127px) {
     .h2 {
         font-size: 25px;
