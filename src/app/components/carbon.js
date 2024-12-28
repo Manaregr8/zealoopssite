@@ -6,7 +6,7 @@ const CarbonFiberGridSection = () => {
     <section className={styles.section}>
       <div className={styles.content}>
         <h2 className={styles.heading}>
-          India's First <span className={styles.highlight}>Carbon Fiber Electric Bicycle</span>
+          {`India's First `}<span className={styles.highlight}>Carbon Fiber Electric Bicycle</span>
         </h2>
         <p className={styles.description}>
         {`Discover a whole new world of biking with our revolutionary carbon fiber electric bicycle. Engineered for thrill-seekers and urban explorers alike, this ride fuses toughness with feather-light agility, making every pedal stroke a joy. Crafted with precision, the carbon fiber frame isn’t just about looks—it’s built to handle rough roads and city streets while staying sleek and stylish.
