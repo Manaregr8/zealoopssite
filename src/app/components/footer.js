@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Footer.module.css';
 import Link from "next/link";
 const Footer = () => {
-    const data = `We view art as more than just a product; it'&apos;s an emotion. Through our frames, we aim to convey an experience
+    const data = `We view art as more than just a product; it's an emotion. Through our frames, we aim to convey an experience
             of artistry, where each piece becomes a vessel for creativity and expression.`;
   return (
     <footer className={styles.footer}>
