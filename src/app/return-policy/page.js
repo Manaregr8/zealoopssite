@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Return Policy | Zealoops",
+  description: `Learn about Zealoops' Return Policy. We strive to ensure customer satisfaction with our products. Understand the guidelines, conditions, and process for returning or exchanging electric cycles and accessories. Shop with confidence at Zealoops.`,
+  keywords: "return policy, Zealoops return, product returns, exchange policy, return guidelines, refund process, product warranty, e-bike returns, electric cycle exchanges, Zealoops satisfaction guarantee, return conditions, return process, defective product returns, exchange conditions, product replacements, refund policy, customer satisfaction, Zealoops policies, hassle-free returns",
+};
+
 import styles from './return.module.css';
 
 const Component = () => {

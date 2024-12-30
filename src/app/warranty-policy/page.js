@@ -1,3 +1,9 @@
+export const metadata = {
+    title: "Warranty Policy | Zealoops",
+    description: `Explore Zealoops' Warranty Policy. Learn about the coverage, terms, and conditions for our electric cycles and accessories. We are committed to delivering quality and reliability, backed by a warranty to ensure customer satisfaction.`,
+    keywords: "warranty policy, Zealoops warranty, product warranty, e-bike warranty, electric cycle coverage, warranty terms, warranty conditions, warranty period, product reliability, customer assurance, defective product warranty, repair policy, replacement warranty, quality guarantee, warranty claims, cycle accessories warranty, Zealoops warranty details, warranty support, reliable products, warranty process, customer satisfaction warranty",
+  };
+  
 import React from 'react';
 import styles from './warranty.module.css';
 

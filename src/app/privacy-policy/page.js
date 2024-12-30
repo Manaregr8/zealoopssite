@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Privacy Policy | Zealoops",
+  description: `Read the Privacy Policy of Zealoops to understand how we collect, use, and protect your personal information. We are committed to maintaining your privacy and ensuring the security of your data. Learn about your rights and how we handle your information responsibly.`,
+  keywords: "privacy policy, Zealoops privacy, data protection, personal information, user privacy, information security, data usage, user rights, privacy practices, data collection policy, secure transactions, customer privacy, information handling, privacy compliance, user data policy, data privacy, information confidentiality, responsible data usage, Zealoops legal policies",
+};
+
 import styles from './privacy.module.css';
 
 const PrivacyPolicy = () => {

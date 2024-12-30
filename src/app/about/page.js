@@ -1,3 +1,9 @@
+export const metadata = {
+    title: "About Us | Zealoops",
+    description: `Learn more about Zealoops, a brand of Eltires Private Limited, an Indian company revolutionizing the cycling industry with innovative and futuristic designs. Our mission is to provide exceptional cycling experiences through energy-efficient, durable, and stylish electric cycles. Discover our commitment to quality, sustainability, and customer satisfaction.`,
+    keywords: "about us, Zealoops, Eltires Private Limited, cycling industry, innovative designs, electric bikes, pedal-assist cycles, energy-efficient bikes, durable cycles, sustainable transportation, eco-friendly cycling, customer-focused brand, Indian e-bike company, electric cycle innovation, quality bicycles, cycling for all, company mission, cycling revolution",
+  };
+  
 import React from 'react';
 import styles from './about.module.css';
 import { lazyLoad } from '../components/lazyLoad';
@@ -6,7 +12,7 @@ const Component = () => {
     const data5 = `Zealoops is brand of Eltires Private Limited ( An Indian company ) that is revolutionizing the
                         cycling industry with its innovative and futuristic designs. Their cycles and paddle-assist E-cycles
                         are a perfect blend of energy, enthusiasm, strong frames, and ruggedness. They are designed to provide
-                        a great riding experience to everyone from beginners to professional cyclists.<br />
+                        a great riding experience to everyone from beginners to professional cyclists.
                         The company has put a lot of effort into researching the best materials for their bikes so that they can
                         offer the highest quality products to their customers. With Zealoops Electric Cycles, you can be sure that
                         you will get a product with superior performance and durability.`;

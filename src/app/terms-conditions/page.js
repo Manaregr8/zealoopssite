@@ -1,3 +1,9 @@
+export const metadata = {
+    title: "Terms and Conditions | Zealoops",
+    description: `Review the Terms and Conditions of Zealoops. Understand the rules, regulations, and guidelines that govern the use of our website, products, and services. By accessing Zealoops, you agree to comply with these terms.`,
+    keywords: "terms and conditions, Zealoops terms, user agreement, website terms, service policies, usage guidelines, e-bike terms, legal policies, user responsibilities, product usage terms, customer agreement, website policies, Zealoops rules, terms of use, conditions of sale, legal compliance, policy agreement, terms for services, user obligations, business terms",
+  };
+  
 import React from 'react';
 import styles from './terms.module.css';
 
