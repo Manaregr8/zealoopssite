@@ -18,7 +18,27 @@ Kandanchavadi, Perungudi, Chennai, TAMIL NADU, 600096`,
       contactName: "Mr. Prasanth",
       mobile: ["+91-7200121545"],
       gst: "33AARFH4847B1ZE",
-      email : "hvicycles@gmail.com"
+      email : "hvicycles@gmail.com",
+      urlw:"https://i.ibb.co/6bddWpq/4b1a8c84-788b-4dc5-b754-8fe5d97eae44.jpg",
+    },
+    {
+      name: "M/s Suvajyoti Enterprises ",
+      address: `AE 325, AE Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064`,
+      contactName: "Mr. Subal Ghosh",
+      mobile: ["+91-990310794"],
+      gst: "19ADQPG1091E1ZJ",
+      email : "suvajyoti.enterprises@gmail.com",
+      urlw:"https://i.ibb.co/0pFWNkkX/Hash-map-for-grouping-two-pointer-positional-analysis-uniqueness-via-set.png",
+    },
+    {
+      name: "Beda Traders",
+      address: `649A, 1, BEDA TRADERS
+Market Landing Road, Kottayam, Kottayam, KERALA, 686001, India`,
+      contactName: "Mr. Binoy Abraham",
+      mobile: ["+91 79024 33937"],
+      gst: "32ATWPA8669G1Z8",
+      email : "binvab@gmail.com",
+      urlw : "https://i.ibb.co/r2XTVHJC/Hash-map-for-grouping-two-pointer-positional-analysis-uniqueness-via-set-1.png",
     },
     // Add more dealer objects here if needed
   ];
@@ -34,7 +54,7 @@ Kandanchavadi, Perungudi, Chennai, TAMIL NADU, 600096`,
             <div className={styles.flex}>
               <img
                 className={styles.storeImg}
-                src="https://i.ibb.co/6bddWpq/4b1a8c84-788b-4dc5-b754-8fe5d97eae44.jpg"
+                src={dealer.urlw}
                 alt={`${dealer.name} Store`}
               />
               <h2 className={styles.cardTitle}>{dealer.name}</h2>
