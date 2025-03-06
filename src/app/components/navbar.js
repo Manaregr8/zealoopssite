@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import styles from "./navbar.module.css"; // Import the CSS Module
 import Link from "next/link";
+import Image from "next/image";
 const Navbar = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
@@ -13,9 +14,11 @@ const Navbar = () => {
     <>
       <nav className={styles.nav}>
         <div className={styles.containerNav}>
-          <img
+          <Image
             className={styles.logo}
-            src="./images/logo.png"
+            src="/images/logo.png"
+            width={150}
+            height={40}
             alt="logo"
           />
           <img

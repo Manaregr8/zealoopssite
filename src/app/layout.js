@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Loader from "./components/loader";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,23 +18,28 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-
 export default function RootLayout({ children }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const handleLoad = () => setIsLoading(false);
-    // Simulate a delay to show loader for better UX
-    const timeout = setTimeout(handleLoad, 1500); 
-
-    return () => clearTimeout(timeout); // Clean up timeout on unmount
+    const timeout = setTimeout(handleLoad, 1500);
+    return () => clearTimeout(timeout);
   }, []);
 
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Head>
+          <link rel="preload" as="image" href="/logo.png" />
+          <link rel="preload" as="image" href="/banner.jpg" />
+          <link rel="preload" as="image" href="/g8.png" />
+          <link rel="preload" as="image" href="/g3.png" />
+          <link rel="preload" as="image" href="/g2.png" />
+        </Head>
+
         {isLoading ? (
-          <Loader /> // Display loader while loading
+          <Loader />
         ) : (
           <>
             <Navbar />

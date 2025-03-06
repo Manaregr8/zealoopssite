@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./hero.module.css";
-
+import Image from "next/image";
 const images = [
   "/images/g3.png",
   "/images/g8.png",
@@ -23,9 +23,10 @@ const AutoSwiper = () => {
   return (
     <div className={styles.cycleBanner}>
       {images.map((src, index) => (
-        <img
+        <Image
           key={index}
           src={src}
+          fill
           alt={`cycle-${index}`}
           className={`${styles.img} ${
             index === currentIndex ? styles.active : ""
