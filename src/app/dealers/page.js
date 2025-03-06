@@ -40,7 +40,36 @@ Market Landing Road, Kottayam, Kottayam, KERALA, 686001, India`,
       email : "binvab@gmail.com",
       urlw : "https://i.ibb.co/r2XTVHJC/Hash-map-for-grouping-two-pointer-positional-analysis-uniqueness-via-set-1.png",
     },
-    // Add more dealer objects here if needed
+    {
+      name: "SAGE ENTERPRISES",
+      address: `PLOT NO. 722, SHERPUR KALAN
+FOCAL POINT ROAD LUDHIANA
+Punjab - 141010, India`,
+      contactName: "Mr. Gaurav Walia ",
+      mobile: ["+91 8800841282"],
+      gst: "03AEKFS5491K1ZK",
+      email : "info.sageinternational@gmail.com",
+      urlw : "https://i.ibb.co/fVtnD0DY/476720643-1781710099253509-8793200464204395614-n.jpg",
+    },
+    {
+      name: "New India Cycle Industries",
+      address: `84-A & B, Phase 1, D.D.A Cycle Market, Jhandewalan, N.Delhi-55`,
+      contactName: "Sahil Raizada",
+      mobile: ["+91 9899764282"],
+      gst: "07AHJPR0817L1Z1",
+      email : "",
+      urlw : "",
+    },
+    {
+      name: "Bengal Cycle Traders",
+      address: `C/o. Bengal Cycle Store, M.G.Road, Birpara, P.O. Birpara, Dist. Alipurduar, Jalpaiguri
+West Bengal - 735204, India`,
+      contactName: "Mr. Sunil Mittal",
+      mobile: ["+91 98320 57578"],
+      gst: "19CBRPM2359A1ZH",
+      email : "",
+      urlw : "",
+    },
   ];
 
   return (
@@ -52,11 +81,15 @@ Market Landing Road, Kottayam, Kottayam, KERALA, 686001, India`,
         {dealers.map((dealer, index) => (
           <div key={index} className={styles.card}>
             <div className={styles.flex}>
-              <img
+             {dealer.urlw?(<img
                 className={styles.storeImg}
                 src={dealer.urlw}
                 alt={`${dealer.name} Store`}
-              />
+              />):<img
+              className={styles.storeImg}
+              src="https://i.ibb.co/cb3ZM7p/images.png"
+              alt={`${dealer.name} Store`}
+            />} 
               <h2 className={styles.cardTitle}>{dealer.name}</h2>
             </div>
             <p className={styles.address}>{dealer.address}</p>
@@ -77,7 +110,12 @@ Market Landing Road, Kottayam, Kottayam, KERALA, 686001, India`,
             </p>
             <p className={styles.email}>
               <strong style={{ color: "#f3ba2f" }}>Email:</strong>{" "}
-              <a href={`tel:${dealer.email}`} className={styles.phoneLink} >{dealer.email}</a> 
+              {dealer.email ? (
+  <a href={`mailto:${dealer.email}`} className={styles.phoneLink}>
+    {dealer.email}
+  </a>
+) : null}
+
             </p>
           </div>
         ))}
