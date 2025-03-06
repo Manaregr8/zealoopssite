@@ -61,7 +61,7 @@ Punjab - 141010, India`,
       urlw : "",
     },
     {
-      name: "Bengal Cycle Traders",
+      name: "Bengal Cycle Store",
       address: `C/o. Bengal Cycle Store, M.G.Road, Birpara, P.O. Birpara, Dist. Alipurduar, Jalpaiguri
 West Bengal - 735204, India`,
       contactName: "Mr. Sunil Mittal",
