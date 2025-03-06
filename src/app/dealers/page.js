@@ -57,7 +57,7 @@ Punjab - 141010, India`,
       contactName: "Sahil Raizada",
       mobile: ["+91 9899764282"],
       gst: "07AHJPR0817L1Z1",
-      email : "",
+      email : "sahilraizada57@gmail.com",
       urlw : "",
     },
     {
