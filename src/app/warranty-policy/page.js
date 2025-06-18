@@ -90,7 +90,7 @@ const WarrantyPolicy = () => {
             </p>
 
             <div className={styles.center}>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSea15AfhrNpUpLahsi4LsrLxqepfYEOZYqfmwIrH5K9GLYpGA/viewform?usp=sf_link" className={styles.button}>{`Claim Warranty`}</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEHQ7v_S1A0IZc7vwpq_aaIYzWBwSIpwPlC4RHrWzpnR7Jyw/viewform?usp=header" className={styles.button}>{`Claim Warranty`}</a>
             </div>
         </section>
     );

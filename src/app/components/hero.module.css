@@ -1,6 +1,7 @@
 .hero {
+
     width: 100%;
-    margin: auto;
+    margin: 50px auto auto auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,6 +167,9 @@
 }
 }
 @media (max-width:790px){
+    .hero {
+    margin: auto;
+  }
     .textBanner h3{
     font-size: 25px;
 }
